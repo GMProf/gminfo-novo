@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.tel{
+    text-decoration: none;
+    color: #b3adad;
+}
+.tel:hover{
+    color: #9c9898;
+}
+.above{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.hour{
+    padding: 0 20px;
+    color: #b3adad;
+    font-weight: 600;
+    font-size: 10pt;
+    font-family: helvetica;
+}
+.menu.sticky{
+    background:#3a3939;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.9s;
+    width: 100%;
+    box-shadow: 2px 3px 4px#555555;
+    z-index: 4;
+  }
+.text-banner{
+    backdrop-filter: blur(3px);
+    background-color: rgba(43, 41, 41, 0.35);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+    -webkit-backdrop-filter: blur(5px);
+    height: auto;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    font-size: 1em;
+}
+.back1{
+    background-image: url('../images/cftv2500.jpg');
+}
+.back2{
+    background-image: url('../images/tim.jpg');
+}
+.back3{
+    background-image: url('../images/web.png');
+}
+.back4{
+    background-image: url('../images/manu-hardware.jpeg');
+}
+.back1, .back2, .back3, .back4 {
+    Background-repeat: no-repeat; 
+    Background-size:cover;
+    background-position: center;
+    height: 100%;
+}
+.above img{
+    width: 25px;
+    height: auto;
+}
+.carousel-inner{
+    height: 30em;
+}
+
+.logo{  
+    margin-right: 30px;
+}
+
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;  
+    padding: 500px 0 0 0;
+    background-color: #e9e4e4;
+    width: 100%;
+    max-width: 1600px;
+}
+.main-top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e9e4e4;
+}
+.main-button-whatsapp{
+    width: 130px;
+    border-radius: 5px;
+    background-color: #535151;  
+    color: #e9e4e4; 
+    border: none; 
+    height: 35px;
+}
+.main-button-whatsapp:hover{
+    background-color: #1a1919;
+}
+
+.card-img-top{
+    width: 90px;
+}
+
+.main-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px 10px;
+    gap: 30px 20px;
+    max-width: 1700px;
+}
+.card {
+    align-items: center;
+    text-align: center;
+}
+.main-content img{
+    width: 4em;
+    height: auto;
+    margin: 40px 30px;
+}
+.title-contact{
+    font-size: 2em;
+}
+.title-cards{
+    border-top: 1px solid #d8d5d5;
+    text-align:left ;
+    padding: 10px 10px;
+}
+.title-cards h3{
+    margin: 0 auto;
+    max-width: 1700px;
+}
+.banner-location{
+    background-image: url('../images/banner-locacao.jpg');
+    width: 100%;
+    height: 60vh;
+    Background-repeat: no-repeat; 
+    Background-size: cover;
+    background-position: center;
+    margin: 20px 0 20px 0;
+}
+.card:hover{
+    transform: scale(1.03);
+}
+.col{
+    margin-bottom: 15px;
+}
+.card-location{
+    max-width: 1700px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    border: 0;
+}
+.text-small-card{
+    font-size: 9pt;
+}
+.client{
+    height: 40vh;
+}
+.contact{
+    background-color: #3a3939;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 20px;
+}
+footer{
+    width: 100%;
+    background-color: #3a3939;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer-content{
+    width: 100%;
+    max-width: 1700px;
+}
+.contact div{
+   color: #d6d4d4;
+   padding: 0 10px 0 10px;
+   margin: 10px;
+}
+.contact div:last-child{
+    text-align: right;
+}
+.tel{
+    width: 25px;
+    height: auto;
+}
+.tel-footer{
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+.media-social{
+    display: flex;
+    justify-content: right;
+}
+.media-social img{
+    width: 30px;
+}
+.footer-bottom{
+    width: 100%;
+    height: 65px;
+    background-color: #1a1919;
+    color: #b3adad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-client{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: auto;
+}
+
+.section-client div{
+    max-width: 1700px;
+    height: auto;
+    width: 100%;
+}
+
+.client-img img{
+    margin: 30px;
+    width: 20vh;
+}
+
+@media (max-width: 982px){
+    .carousel-inner{
+    height: 25em;
+    }
+}
+
+@media (max-width: 640px){
+    .above{
+    justify-content: center;
+    }
+    .back2{
+        background-position: center;
+    }
+    .back1{
+        background-position: center;
+    }
+    .main-content h3{
+        text-align: center;
+        
+    }
+    .card {
+        text-align: center;
+    }
+}
+@media (max-width: 440px){
+    .banner-location{
+       visibility: hidden;
+       height: 1vh;
+       margin-bottom: 5px;
+    }
+}
+@media (max-width: 390px){
+    .contact div:last-child{
+        text-align: center;
+    }
+    .media-social{
+        display: flex;
+        justify-content: center;
+    
+    }
+    .client-img img{
+        margin: 25px;
+        width: 10vh;
+    }
+}
