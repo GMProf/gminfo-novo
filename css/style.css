@@ -272,10 +272,9 @@ footer{
        height: 1vh;
        margin-bottom: 5px;
     }
-}
-@media (max-width: 390px){
     .contact div:last-child{
         text-align: center;
+        padding: 0 15px;
     }
     .media-social{
         display: flex;
