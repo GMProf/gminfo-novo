@@ -11,18 +11,12 @@ window.addEventListener('scroll', function(){
  //Scroll Reveal 
   const sr = ScrollReveal({reset: true})
 
-  sr.reveal(".toRight", {
-    origin: "right", //Para ele surgir de cima para baixo.
-    distance: "40px", // A distancia do origin para a posição original do elemento.
-    duration: 1500, // A duração da animação em ms
-    delay: 200, // O delay para a animação acontecer
-    reset: true // Ao sair do campo de tela, a animação não acontecerá novamente caso eu passe por ela novamente.
-  });
+ 
 
   sr.reveal(".toScale", {
     scale: 0.85,
     distance: "40px", // A distancia do origin para a posição original do elemento.
-    duration: 1500, // A duração da animação em ms
+    duration: 1000, // A duração da animação em ms
     delay: 200, // O delay para a animação acontecer
     reset: true // Ao sair do campo de tela, a animação não acontecerá novamente caso eu passe por ela novamente.
   });
